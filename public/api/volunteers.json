@@ -1,16 +1,18 @@
 [
   {
-    "name": "Pickling with Cindy",
+    "name": "Pickling with Barb",
     "date": "August 27th, 1992",
+    "event":"Come join Barbra the town pickler at the pickle shed for an evening of pickling suprises",
     "host": {
-      "name": "Cindy Pickles",
+      "name": "Barb Pickles",
       "num_events": 6,
       "rating":2
     }
   },
   {
-    "name": "Telegraph-off",
+    "name": "Invention of the telegraph",
     "date": "October 11, 1837",
+    "event":"I, Samuel Morse, Have finally created a means of communication that will change the world.",
     "host": {
       "name": "Samuel Morse",
       "num_events": 24,
@@ -20,12 +22,13 @@
   {
     "name":"Event Horizon",
     "date":"October 23, 2542",
+    "event":"The final day of man, let all we have known be swallowed into the abyss(MAXIMUM EDGE)",
     "host":{
       "name":"Black Hole",
       "num_events": 0,
-      "rating":0,
+      "rating":0
 
       }
-  },
+  }
 
 ]
