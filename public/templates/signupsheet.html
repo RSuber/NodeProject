@@ -1,14 +1,15 @@
 <div class="signupsheet">
-<p ng-repeat='el in pickles'>Hello {{el.host}}, you can fill out this form if you
+<p>Hello {{name[0]}}, you can fill out this form if you
   would like to plan an event</p>
-  <input type="text" value="" placeholder="Name of the Event">
-  <input type="text" placeholder="Event Information"
+  <input ng-model="event" placeholder="Name of the Event">
   <br>
-  <input type="date" data-date-inline-picker="true" class="calendar"/>
+  <input ng-model="info" placeholder="Event Information">
   <br>
-  <button ng-click="events()" class="button"> All done</button>
+  <input ng-model="date" placeholder="Date of the event"/>
+  <br>
+  <button ng-click="mustard()" class="button"> All done</button>
   <h1> Planned Events </h1>
-  <section ng-repeat="el in pickles">
+  <section class="my events" ng-repeat="el in pickles">
     Host: {{el.host}}
     <br>
     Event: {{ el.name }}
@@ -16,5 +17,7 @@
     Info: {{el.typeEvent}}
     <br>
     Date: {{el.date}}
+    <br>
+    <br>
   </section>
   </div>

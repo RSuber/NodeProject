@@ -1,3 +1,15 @@
 <div class="volunteers">
-  Hello bro {{poop}}
+  <p ng-repeat='el in displayNames'>
+    {{el.host}}
+    <br>
+    {{el.name}}
+    <br>
+    {{el.typeEvent}}
+    <br>
+    {{el.date}}
+    <br>
+    Participants: {{el.participants}}
+    <br>
+    <button ng-click="JoinEvent(el)">Join This Event</button>
+    <p>
 </div>

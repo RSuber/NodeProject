@@ -5,7 +5,7 @@
     "event":"Come join Barbra the town pickler at the pickle shed for an evening of pickling suprises",
     "host": {
       "name": "Barb Pickles",
-      "num_events": 6,
+      "participants": 6,
       "rating":2
     }
   },
@@ -15,7 +15,7 @@
     "event":"I, Samuel Morse, Have finally created a means of communication that will change the world.",
     "host": {
       "name": "Samuel Morse",
-      "num_events": 24,
+      "participants": 24,
       "rating":1
     }
   },
@@ -25,7 +25,7 @@
     "event":"The final day of man, let all we have known be swallowed into the abyss(MAXIMUM EDGE)",
     "host":{
       "name":"Black Hole",
-      "num_events": 0,
+      "participants": 0,
       "rating":0
 
       }
